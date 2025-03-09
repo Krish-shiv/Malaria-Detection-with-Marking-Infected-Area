@@ -1,0 +1,61 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment and package files
+venv/
+env/
+*.env
+*.log
+
+# Ignore model and large files
+*.h5
+*.pt
+*.tflite
+*.onnx
+*.pb
+*.weights
+
+# Ignore data and dataset files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+/data/
+/dataset/
+/content/drive/MyDrive/Malaria_detection_big/
+
+# Ignore temporary and backup files
+*.bak
+*.swp
+*.tmp
+
+# Ignore Colab-specific files
+.colab/
+*.session
+
+# Ignore images and results (if you don't want to track them)
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.svg
+
+# Ignore output files
+output/
+results/
+
+# Ignore Python notebooks if not required
+*.ipynb
+
+# If you want to keep the folder but not files inside, use:
+results/*
+!results/README.md
